@@ -1,0 +1,16 @@
+[
+{
+  "modid": "factorycraft",
+  "name": "Factory Craft",
+  "description": "A mod that add lots of blocks about factories",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["leosavi25"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

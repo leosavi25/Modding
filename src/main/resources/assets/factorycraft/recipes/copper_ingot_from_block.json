@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key": 
+    {
+        "B": 
+        {
+            "item": "factorycraft:block_copper"
+        }
+    },
+    
+    "result":
+    {
+        "item": "factorycraft:copper_ingot",
+        "count": 9
+    }
+}

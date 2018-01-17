@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "I"
+    ],
+    
+    "key": 
+    {
+        "I": 
+        {
+            "item": "factorycraft:copper_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "factorycraft:copper_nugget",
+        "count": 9
+    }
+}

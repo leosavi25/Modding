@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+    
+    "key": 
+    {
+        "N": 
+        {
+            "item": "factorycraft:copper_nugget"
+        }
+    },
+    
+    "result":
+    {
+        "item": "factorycraft:copper_ingot"
+    }
+}
