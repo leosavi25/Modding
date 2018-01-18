@@ -29,13 +29,14 @@ public class FactoryCraft {
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event){
 		GameRegistry.registerWorldGenerator(new OreGen(), 3);
-		Smelting.init();
 		BlockInit.preInit();
+		ItemInit.init();
+		Smelting.init();
 	}
+	
 	@EventHandler
-	public static void init(FMLInitializationEvent event){
-		BlockInit.init();
-	}
+	public static void init(FMLInitializationEvent event){}
+	
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event){}
 }
