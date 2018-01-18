@@ -19,14 +19,10 @@ public class BlockInit {
 	
 	public static Block ORE_COPPER_BLOCK;
 	
-	public static final Block BLOCK_COPPER = new BlockBase("block_copper", Material.IRON, 5.0f, CreativeTabs.BUILDING_BLOCKS);
+	public static Block BLOCK_COPPER;
 	
-	public static void preInit() {
+	public static void init() {
 	      ORE_COPPER_BLOCK = new Ore("ore_copper");
-	      BLOCKS.add(ORE_COPPER_BLOCK);
-	    }
-	  
-	    public static void init() {
-	      OreDictionary.registerOre("factorycraft:ore_copper", new ItemStack(ORE_COPPER_BLOCK, 1, 0));
-	    }
+	      BLOCK_COPPER = new BlockBase("block_copper", Material.IRON, 5.0f, CreativeTabs.BUILDING_BLOCKS);
+	}
 }
