@@ -35,7 +35,9 @@ public class FactoryCraft {
 	}
 	
 	@EventHandler
-	public static void init(FMLInitializationEvent event){}
+	public static void init(FMLInitializationEvent event){
+		BlockInit.init();
+	}
 	
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event){}
