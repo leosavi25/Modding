@@ -21,8 +21,12 @@ public class BlockInit {
 	
 	public static Block BLOCK_COPPER;
 	
-	public static void init() {
+	public static void preInit() {
 	      ORE_COPPER_BLOCK = new Ore("ore_copper");
 	      BLOCK_COPPER = new BlockBase("block_copper", Material.IRON, 5.0f, CreativeTabs.BUILDING_BLOCKS);
+	}
+	
+	public static void init() {
+		OreDictionary.registerOre("ore_copper", new ItemStack(ORE_COPPER_BLOCK, 1, 0));
 	}
 }
